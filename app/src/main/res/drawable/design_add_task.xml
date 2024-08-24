@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <!-- Drawable for pressed state -->
+        <shape>
+            <solid android:color="#80FFFFFF"></solid>
+            <corners android:radius="10dp"></corners>
+        </shape>
+        <!-- Your pressed state drawable here -->
+    </item>
+    <item>
+        <!-- Default drawable -->
+        <shape>
+            <solid android:color="@color/white"></solid>
+            <corners android:radius="10dp"></corners>
+        </shape>
+        <!-- Your default state drawable here -->
+    </item>
+</selector>

@@ -1,0 +1,36 @@
+<!-- edit_task_dialog.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/design_add_task_background"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/buttonDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/design_add_task"
+        android:fontFamily="@font/poppins_bold"
+        android:layout_margin="8dp"
+        android:hint="Enter date"/>
+
+    <Button
+        android:id="@+id/buttonTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_bold"
+        android:layout_margin="8dp"
+        android:background="@drawable/design_add_task"
+        android:hint="Enter time"/>
+
+    <Button
+        android:id="@+id/btnConfirm"
+        android:layout_width="match_parent"
+        android:fontFamily="@font/poppins_bold"
+        android:background="@drawable/design_add_task"
+        android:layout_margin="8dp"
+        android:layout_height="wrap_content"
+        android:text="Confirm"/>
+</LinearLayout>

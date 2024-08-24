@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <!-- Drawable for pressed state -->
+        <transition xmlns:android="http://schemas.android.com/apk/res/android">
+            <item android:drawable="@drawable/vector_pause_pressed" />
+        </transition>
+    </item>
+    <item>
+        <!-- Default drawable -->
+        <layer-list>
+            <item android:drawable="@drawable/vector_pause" />
+        </layer-list>
+    </item>
+</selector>
